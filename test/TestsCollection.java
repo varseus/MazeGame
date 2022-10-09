@@ -6,7 +6,9 @@ import static org.junit.Assert.assertEquals;
 
 import mazegame.*;
 
-
+/**
+ * Tests functionality of the collection interface.
+ */
 public class TestsCollection {
   Stack<Integer> stack1;
   Stack<Integer> stack2;

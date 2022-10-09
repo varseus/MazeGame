@@ -10,6 +10,9 @@ import java.util.Random;
  * (best at solving the maze) members of the population are breeded
  * and mutated to form a new population which is better at solving the
  * maze than the previous one.
+ *
+ * To do:
+ * - Improve efficiency of crossOver method.
  */
 class GeneticAlgorithm {
   private int moveLimit; // represents the size of each chomosome

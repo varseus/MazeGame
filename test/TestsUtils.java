@@ -4,10 +4,13 @@ import mazegame.*;
 
 import static org.junit.Assert.assertEquals;
 
-
-// Tests for Utils classes.
-// Most methods are not runnable due to limited visibility of the mazegame classes.
-// TO DO: update all methods to run given limited visibility (after implementing MVC).
+/**
+ * Tests functionality for all Utils classes.
+ * Most methods are not runnable due to limited visibility of the mazegame classes.
+ *
+ * To do:
+ * - update all methods to run given limited visibility (after implementing MVC).
+ */
 public class TestsUtils {
   ArrayList<Edge> edges;
   ArrayList<Edge> emptyEdges;

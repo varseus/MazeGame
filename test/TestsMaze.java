@@ -6,9 +6,13 @@ import java.util.Random;
 
 import mazegame.Maze;
 
-// Tests for the Maze class.
-// Most methods are not runnable due to limited visibility of the mazegame classes.
-// TO DO: update all methods to run given limited visibility (after implementing MVC).
+/**
+ * Tests functionality for the Maze class.
+ * Most methods are not runnable due to limited visibility of the mazegame classes.
+ *
+ * To do:
+ * - update all methods to run given limited visibility (after implementing MVC).
+ */
 public class TestsMaze {
     Random random = new Random(1);
   Maze testMaze = new Maze(10, 10, new Random(1));

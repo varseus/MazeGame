@@ -10,11 +10,11 @@ import javalib.worldimages.*;
 
 /**
  * This class represents the model, view, and controller for a maze
- * that solves itslef using BFS, DFS, or a genetic algorithm.
+ * that solves itself using BFS, DFS, or a genetic algorithm.
  *
  * To do:
  * - Make model/view/controller separate classes
- * - Mode BFS/DFS/Genetic Algorithm separate models that extend Algorithm interface
+ * - Make BFS/DFS/Genetic Algorithm separate models that extend Algorithm interface
  */
 public class Maze extends World {
   ArrayList<ArrayList<Node>> nodes;

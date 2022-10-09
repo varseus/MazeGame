@@ -81,8 +81,6 @@ class Utils {
     return curHi;
   }
 
-  // swaps the two indexes in the source ArrayList
-
   /**
    * Swaps the elements in two given indices in a given ArrayList.
    * @param source the list
@@ -138,6 +136,9 @@ class Utils {
 
 /**
  * Comparator to compare edge weights.
+ *
+ * To do:
+ * - Refactor comparator classes to be a subclasses for edge
  */
 class EdgeComparator implements Comparator<Edge> {
   public int compare(Edge e1, Edge e2) {
@@ -147,6 +148,9 @@ class EdgeComparator implements Comparator<Edge> {
 
 /**
  * Comparator to compare member fitness in a population.
+ *
+ * To do:
+ * - Refactor comparator classes to be a subclasses for edge
  */
 class MemberComparator implements Comparator<Member> {
   Maze maze;

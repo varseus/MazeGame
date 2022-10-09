@@ -15,6 +15,7 @@ import javalib.worldimages.*;
  * To do:
  * - Make model/view/controller separate classes
  * - Make BFS/DFS/Genetic Algorithm separate models that extend Algorithm interface
+ * - Add constructors / Builder pattern to create mazes with different GA/BFS/DFS specifications
  */
 public class Maze extends World {
   ArrayList<ArrayList<Node>> nodes;
@@ -244,6 +245,7 @@ public class Maze extends World {
       this.highlightPath(this.geneticAlgorithm.fittestMember(this));
     }
     else if (key.equals("r")) {
+      this.geneticAlgorithm = null;
       this.worklist = null;
       this.cameFromNode = new HashMap<Posn, Node>();
       this.bfsSteps = 0;

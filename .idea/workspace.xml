@@ -4,14 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6a6bf333-88ce-40bf-bb79-89c2f0c06195" name="Changes" comment="">
+    <list default="true" id="6a6bf333-88ce-40bf-bb79-89c2f0c06195" name="Changes" comment="Update comments To do's and fix spelling errors.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/mazegame/GeneticAlgorithm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mazegame/GeneticAlgorithm.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/mazegame/Maze.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mazegame/Maze.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/mazegame/Utils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mazegame/Utils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/TestsCollection.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/TestsCollection.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/TestsMaze.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/TestsMaze.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/TestsUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/TestsUtils.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -159,8 +155,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1665032889439</updated>
-      <workItem from="1665032890533" duration="15659000" />
+      <workItem from="1665032890533" duration="17227000" />
     </task>
+    <task id="LOCAL-00001" summary="Update comments To do's and fix spelling errors.">
+      <created>1665301121166</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1665301121166</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -176,5 +180,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Update comments To do's and fix spelling errors." />
+    <option name="LAST_COMMIT_MESSAGE" value="Update comments To do's and fix spelling errors." />
   </component>
 </project>

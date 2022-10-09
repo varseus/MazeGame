@@ -13,6 +13,8 @@ import java.util.Random;
  *
  * To do:
  * - Improve efficiency of crossOver method.
+ * - Improve genetic algorithm params to always reach the end of the maze within 50
+ *   generations.
  */
 class GeneticAlgorithm {
   private int moveLimit; // represents the size of each chomosome
